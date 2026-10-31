@@ -1,5 +1,5 @@
 version: gatoragents.project/v1
-image: "sha256:c4d89c3bf22493e6b800ccfff712f392ca69866c5649e9e12ff9ecc1512cf076"
+image: "sha256:a00ec9c85a2845881488eedcebedffaeb36afca17d7c9986323ee937fbc48bbd"
 check: [["true"]]
 branch: ["agent/*"]
 refused_paths: ["^\\.git/"]
