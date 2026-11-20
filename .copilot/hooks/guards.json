@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      { "type": "command", "bash": "python3 ~/.claude/hooks/git-guard.py --copilot", "timeoutSec": 10 }
+    ],
+    "postToolUse": [
+      { "type": "command", "bash": "~/.claude/hooks/conflict-markers.sh --copilot", "timeoutSec": 10 }
+    ]
+  }
+}
